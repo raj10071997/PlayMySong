@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.game.dhanraj.playmysong.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TrackSearched"
+        android:textStyle="bold|italic"
+        android:id="@+id/tracksearched"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        />
+
+    <ListView
+        android:layout_marginTop="15dp"
+        android:id="@+id/list"
+        android:layout_below="@+id/tracksearched"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#131212"
+        android:dividerHeight="8dp"></ListView>
+</RelativeLayout>
