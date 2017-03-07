@@ -53,7 +53,7 @@ public class songdetails extends AppCompatActivity {
             }
         });
 
-        Log.v("fuck :" , Parameters.getArtist());
+        Log.v("dhanraj :" , Parameters.getArtist());
 
     }
 }
